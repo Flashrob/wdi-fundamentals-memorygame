@@ -20,6 +20,16 @@ main {
     margin: 35px auto;
 }
 
+footer {
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+
 a {
     font-family: "Raleway", sans-serif;
     letter-spacing: 1px;
@@ -28,6 +38,11 @@ a {
     text-decoration: none;
     margin: 0 20px;
     color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
 }
 
 h1 {
@@ -60,3 +75,28 @@ p {
 img {
     margin: 40px 8px;
 }
+
+.copyright {
+    font-family: "Raleway", sans-serif;
+    float: left;
+}
+
+.message {
+    font-family: "Raleway", sans-serif;
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+.name {
+    color: #F15B31;
+    font-weight: 700;
+}
+
