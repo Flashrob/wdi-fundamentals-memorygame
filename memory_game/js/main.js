@@ -22,6 +22,7 @@ let cards = [{
 let cardsInPlay = []
 
 function checkForMatch() {
+    // supposedly should call checkForMatch() within flipCard, but then it checks, even with only one flipped card. So I used an if function to have 2 cards in checkformatch
     if (cardsInPlay.length === 2) {
         if (cardsInPlay[0] === cardsInPlay[1]) {
             alert("You found a match!");
@@ -41,4 +42,3 @@ function flipCard(cardId) {
 
 flipCard(0)
 flipCard(2)
-// supposedly should call checkForMatch() within flipCard, but then it checks even with only one flipped card. So I used an if function to have 2 cards in checkformatch
