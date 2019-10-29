@@ -100,3 +100,13 @@ img {
     font-weight: 700;
 }
 
+button {
+    font-size: 30px;
+    background-color: red;
+}
+
+#score {
+    margin-bottom: 0;
+    font-size: 25px;
+    color: green;
+}
